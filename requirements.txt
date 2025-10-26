@@ -1,38 +1,7 @@
-# Python version requirement
-python>=3.8,<3.9
-
 # Core AI/ML libraries
-numpy>=1.19.0,<1.25.0
-pandas>=1.1.0,<2.0.0
-matplotlib>=3.3.0,<4.0.0
+openai
+langchain
+streamlit
+PyPDF2
+python-dotenv
 
-# Deep Learning frameworks
-tensorflow>=2.4.0,<2.11.0
-torch>=1.9.0,<2.0.0
-transformers>=4.5.0,<5.0.0
-
-# NLP libraries
-nltk>=3.5
-spacy>=3.0.0,<4.0.0
-
-# Image processing
-Pillow>=8.0.0,<10.0.0
-opencv-python>=4.5.0,<5.0.0
-
-# Utilities
-scikit-learn>=0.24.0,<1.2.0
-scipy>=1.5.0,<1.10.0
-tqdm>=4.50.0
-requests>=2.25.0
-
-# Environment management
-python-dotenv>=0.19.0
-
-# Jupyter support
-jupyter>=1.0.0
-ipykernel>=6.0.0
-
-# API and web frameworks (optional)
-flask>=2.0.0,<3.0.0
-fastapi>=0.68.0,<1.0.0
-uvicorn>=0.15.0,<1.0.0
